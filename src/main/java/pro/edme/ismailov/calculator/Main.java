@@ -48,7 +48,7 @@ public class Main {
                 try {
                     System.out.println(calc(input));
                 } catch (Exception e) {
-                    e.printStackTrace();
+                    System.out.println(e.getMessage());
                 }
             }
         }
